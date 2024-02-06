@@ -1,0 +1,197 @@
+  <?= $this->extend("layout/main"); ?>
+
+<?= $this->section("body") ?>
+    <!-- main containe section start -->
+
+    <!-- main containe section start -->
+    <?= view('layout/breadcrumb'); ?>
+
+    <div class="bg-white fadeInUp m-0 mt-2 p-3 wow rounded shadow">
+      <div class="row">
+        <div class="col-md-10 d-flex">
+        <div class="dropdown mx-2">
+              <button class="bg-white border-danger btn btn-secondary dropdown-toggle p-1 rounded" type="button"
+                data-toggle="dropdown" aria-expanded="false" style="color: black;">
+                Year
+                <img src="<?=IMG?>select-icon.png">
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
+            <div class="dropdown mx-2">
+              <button class="bg-white border-danger btn btn-secondary dropdown-toggle p-1 rounded" type="button"
+                data-toggle="dropdown" aria-expanded="false" style="color: black;">
+                Period
+                <img src="<?=IMG?>select-icon.png">
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
+            <div class="dropdown mx-2">
+              <button class="bg-white border-danger btn btn-secondary dropdown-toggle p-1 rounded" type="button"
+                data-toggle="dropdown" aria-expanded="false" style="color: black;">
+                Market
+                <img src="<?=IMG?>select-icon.png">
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
+            <div class="dropdown mx-2">
+              <button class="bg-white border-danger btn btn-secondary dropdown-toggle p-1 rounded" type="button"
+                data-toggle="dropdown" aria-expanded="false" style="color: black;">
+                Category
+                <img src="<?=IMG?>select-icon.png">
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
+            <div class="dropdown mx-2">
+              <button class="bg-white border-danger btn btn-secondary dropdown-toggle p-1 rounded" type="button"
+                data-toggle="dropdown" aria-expanded="false" style="color: black;">
+                Sub-Category
+                <img src="<?=IMG?>select-icon.png">
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
+            <div class="dropdown mx-2">
+              <button class="bg-white border-danger btn btn-secondary dropdown-toggle p-1 rounded" type="button"
+                data-toggle="dropdown" aria-expanded="false" style="color: black;">
+                Detailed-Subcategory
+                <img src="<?=IMG?>select-icon.png">
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
+            <div class="dropdown mx-2">
+              <button class="bg-white border-danger btn btn-secondary dropdown-toggle p-1 rounded" type="button"
+                data-toggle="dropdown" aria-expanded="false" style="color: black;">
+                Brand
+                <img src="<?=IMG?>select-icon.png">
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-2 d-flex justify-content-end">
+        <button type="button" class="btn btn-primary w-auto">Submit</button>
+        </div>
+      </div>
+    </div>
+
+    
+
+      <!-- <div class="col-md-12 text-center mt-2">
+        <img src="images/basic-bar-graph.png" class="w-50">
+      </div> -->
+      
+      <div class="containe main-container-sec wow fadeInUp row rounded shadow m-0 mt-2" data-wow-delay="0.1s">
+      <div class="col-md-12 mt-3">
+      
+        <table class="table table-bordered table-hover text-dark table-hover text-center" style="font-size: 12px;">
+
+          <tr>
+            <th class="internal-data bg-danger" rowspan="2" style="color: white; vertical-align: middle;">
+              Group</th>
+              <th class="internal-data bg-danger" rowspan="2" style="color: white; vertical-align: middle;">
+                Brand</th>
+                <th class="internal-data bg-danger" rowspan="2" style="color: white; vertical-align: middle;">
+                  SKU</th>
+            <th class="internal-data bg-danger text-center" colspan="1" style="color: white;">
+              2023 Q2
+            </th>
+            <th class="internal-data bg-danger text-center" colspan="1" style="color: white;">
+              2022 Q2
+            </th>
+            <th class="internal-data bg-danger text-center" rowspan="2" style="color: white; vertical-align: middle;">
+              2022 Q2
+            </th>
+            <th class="internal-data bg-danger text-center" rowspan="2" style="color: white; vertical-align: middle;">
+              2022 Q2
+            </th>
+          </tr>
+          <tr>
+            <td class="internal-data bg-danger text-center" style="color: white;">Sales (Mn USD)</td>
+            <!-- <td class="internal-data bg-danger text-center" style="color: white;">MOB
+            </td> -->
+            <td class="internal-data bg-danger text-center" style="color: white;">Sales (Mn USD)</td>
+            <!-- <td class="internal-data bg-danger text-center" style="color: white;">MOB
+            </td> -->
+          </tr>
+          <tr>
+            <td class="internal-data" style="text-align: left;background-color: #eaeaea;">Japan
+            </td>
+            <td class="internal-data">833.9</td>
+            <td class="internal-data">4.0%</td>
+            <!-- <td class="internal-data">13.3</td> -->
+            <td class="internal-data">13.3</td>
+            <td class="internal-data">6.5%</td>
+            <td class="internal-data">6.5%</td>
+            <td class="internal-data">6.5%</td>
+            <!-- <td class="internal-data">6.5%</td>
+            <td class="internal-data">6.5%</td> -->
+          </tr>
+
+          <tr>
+            <td class="internal-data" style="text-align: left;background-color: #eaeaea;">Skin Care
+            </td>
+            <td class="internal-data">238.0</td>
+            <td class="internal-data">1.9%</td>
+            <td class="internal-data">11.5%</td>
+            <td class="internal-data">8.6%</td>
+            <td class="internal-data">6.5%</td>
+            <td class="internal-data">6.5%</td>
+            <!-- <td class="internal-data">6.5%</td>
+            <td class="internal-data">6.5%</td> -->
+          </tr>
+
+          <tr>
+            <td class="internal-data" style="text-align: left;background-color: #eaeaea;">Make-up
+            </td>
+            <td class="internal-data">142.4</td>
+            <td class="internal-data">4.3%</td>
+            <td class="internal-data">10.4%</td>
+            <td class="internal-data">6.4%</td>
+            <td class="internal-data">6.5%</td>
+            <td class="internal-data">6.5%</td>
+            <!-- <td class="internal-data">6.5%</td>
+            <td class="internal-data">6.5%</td> -->
+          </tr>
+
+          <tr>
+            <td class="internal-data" style="text-align: left;background-color: #eaeaea;">Fragrance
+            </td>
+            <td class="internal-data">39.3</td>
+            <td class="internal-data">3.9%</td>
+            <td class="internal-data">30.8%</td>
+            <td class="internal-data">4.9%</td>
+            <td class="internal-data">6.5%</td>
+            <td class="internal-data">6.5%</td>
+            <!-- <td class="internal-data">6.5%</td>
+            <td class="internal-data">6.5%</td> -->
+          </tr>
+        </table>
+      </div>
+    </div>
+  <?= $this->endSection() ?>   
